@@ -13,7 +13,7 @@
         Dim num2 As Double = txtsecondnum.Text
         Dim result As Double = num1 + num2
         If result = result Then
-            MsgBox(result)
+            MsgBox("The total is " & result)
         Else
             MsgBox("Invalid Input")
         End If
